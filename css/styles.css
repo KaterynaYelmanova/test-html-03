@@ -1,3 +1,4 @@
+/*============COMMON STYLES============*/
 .list {
   list-style-type: none;
 }
@@ -23,37 +24,23 @@ ol {
 button {
   cursor: pointer;
 }
+img {
+  display: block;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: rgba(46, 47, 66, 1);
 }
-
-/* <uniquifier>: Use a unique and descriptive class name
-
-.raleway {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.roboto-regular {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+/*============COMMON STYLES============*/
 
-.roboto-medium {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.roboto-bold {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}*/
+/*============HEADER STYLES============*/
 .page-header {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -69,12 +56,7 @@ body {
 .logo-span {
   color: rgba(46, 47, 66, 1);
 }
-.footer-logo {
-  color: rgba(77, 90, 229, 1);
-}
-.footer-logo-span {
-  color: rgba(244, 244, 253, 1);
-}
+
 .nav-link {
   font-weight: 500;
   font-size: 16px;
@@ -97,6 +79,8 @@ body {
 .address-link:focus {
   color: rgba(64, 75, 191, 1);
 }
+
+/*============HEADER STYLES============*/
 .effective-section {
   background-color: rgb(46, 47, 66);
 }
@@ -119,8 +103,21 @@ body {
 .effective-button:focus {
   background-color: rgba(64, 75, 191, 1);
 }
-.benefits-title {
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .item-benefits-title {
   font-weight: 500;
   font-size: 20px;
@@ -136,12 +133,7 @@ body {
 .team-page {
   background-color: rgb(229, 229, 229);
 }
-.team-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
+
 .team-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -156,12 +148,7 @@ body {
   text-align: center;
   color: rgba(67, 68, 85, 1);
 }
-.portfolio-title {
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
-}
+
 .portfolio-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -181,5 +168,11 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: rgba(244, 244, 253, 1);
+}
+.footer-logo {
+  color: rgba(77, 90, 229, 1);
+}
+.footer-logo-span {
   color: rgba(244, 244, 253, 1);
 }
