@@ -102,6 +102,9 @@ body {
   column-gap: 24px;
 }
 .address-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
