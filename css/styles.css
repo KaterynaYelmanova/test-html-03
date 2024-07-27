@@ -97,6 +97,7 @@ body {
 .nav-link:focus {
   color: rgba(64, 75, 191, 1);
 }
+
 .address-list {
   display: flex;
   column-gap: 24px;
